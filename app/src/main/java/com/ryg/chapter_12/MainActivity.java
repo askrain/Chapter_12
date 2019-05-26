@@ -101,7 +101,7 @@ public class MainActivity extends Activity implements OnScrollListener {
         mImageAdapter = new ImageAdapter(this);
         mImageGridView.setAdapter(mImageAdapter);
         mImageGridView.setOnScrollListener(this);
-
+//        产品角度
         if (!mIsWifi) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage("初次使用会从网络下载大概5MB的图片，确认要下载吗？");
