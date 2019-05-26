@@ -35,7 +35,7 @@ public class MainActivity extends Activity implements OnScrollListener {
     private int mImageWidth = 0;
     private boolean mIsWifi = false;
     private boolean mCanGetBitmapFromNetWork = false;
-//    hello custom
+//    hello custom do something diffirent
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
